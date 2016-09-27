@@ -33,6 +33,10 @@ nav ul li a {
   text-decoration: none;
   padding:  0 15px;
 }
+nav ul li a:link {
+  text-shadow: none;
+  text-decoration: none;
+}
 nav ul li a:hover {
   text-shadow: none;
   text-decoration: none;
