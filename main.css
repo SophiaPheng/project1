@@ -1,14 +1,8 @@
 body {
   background-color: white;
-
-}
-main {
-  margin-top: 10px;
-  background: url("images/Statues_Cambodia.jpg") no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-
-  text-color:black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav {
@@ -16,15 +10,19 @@ nav {
   color: white;
   text-shadow: 0 0 4px #000;
   background-color: dimgrey;
-  height: 440px;
+  width: 100%;
+  height: 550px;
   background: url('images/Hom_Chhorn.JPG');
   background-size: cover;
+  max-width: 1350px;
 }
 nav ul {
   /*border: 1px solid #000;*/
   list-style-type: none;
-  padding-top: 25px;
-  position: relative;
+  padding: 25px 0;
+  width: 100%;
+  background-color: #444;
+  opacity: .5;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -52,6 +50,18 @@ nav ul li a:hover {
   background-color: rgba(72, 132, 113, 0.6);
 }
 
+main {
+  margin-top: 10px;
+  text-color:black;
+  max-width: 1350px;
+
+}
+
+
+#synopsis figure {
+  margin-top: 10px;
+}
+
 #filmmakers {
   /*border: 1px solid #000000;*/
 }
@@ -61,5 +71,5 @@ nav ul li a:hover {
 
 #filmmakers li {
   /*border: 1px solid #000000;*/
-  height: 400px;
+  height: 500px;
 }
